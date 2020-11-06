@@ -44,18 +44,18 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - No performance issues
 
 #### Samir updates
-setup database setting in property file for embeded h2 database
-Fixed the broken POST, return created data in response
-Fixed the PUT API to updated and not create new, return the updated data in response
-Added global exception handler and custrom exception for EmployeeNotFound
-Throw EmployeeNotFound if invalid employeeID sent on Update, GetByID and DeleteByID features
-Add unit test for EmployeeService (validDataTest and InvalidDataTest)
-Added comments on all important functions
+- setup database setting in property file for embeded h2 database
+- Fixed the broken POST, return created data in response
+- Fixed the PUT API to updated and not create new, return the updated data in response
+- Added global exception handler and custrom exception for EmployeeNotFound
+- Throw EmployeeNotFound if invalid employeeID sent on Update, GetByID and DeleteByID features
+- Add unit test for EmployeeService (validDataTest and InvalidDataTest)
+- Added comments on all important functions
 
 #### Samir TODO (if more time)
-seperate property files based on enviroment
-Define logback.xml with seperate setting for development and production
-Data validation checks
-lombok plugin setup with ide
-adding of more unit tests
-set up integration test helpers and add tests
+- seperate property files based on enviroment
+- Define logback.xml with seperate setting for development and production
+- Data validation checks
+- lombok plugin setup with ide
+- adding of more unit tests
+- set up integration test helpers and add tests
