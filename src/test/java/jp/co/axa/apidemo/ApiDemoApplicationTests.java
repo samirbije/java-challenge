@@ -11,6 +11,8 @@ public class ApiDemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		// sample unit test is on another file
+		// TODO: integration test
 	}
 
 }

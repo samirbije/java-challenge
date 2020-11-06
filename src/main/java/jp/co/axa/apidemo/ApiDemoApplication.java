@@ -8,6 +8,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 public class ApiDemoApplication {
 
+	
+	/** 
+	 * The entry point of the spring boot application
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(ApiDemoApplication.class, args);
 	}
